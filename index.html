@@ -4,11 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <link rel="icon" href="./images/favicon.ico" sizes="any" />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/dark.css" />
+    <link rel="stylesheet" href="./styles/light.css" />
     <title>Сложно сосредоточиться</title>
     <script src="./scripts/script.js"></script>
   </head>
   <body class="page">
     <header class="header decorated-zone">
+      <span class="header__recording" aria-hidden="true">REC</span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -35,6 +46,168 @@
           </li>
         </ul>
       </nav>
+      <h1 class="display-title header__title">no focus</h1>
+      <p class="header__description title-decor">
+        <span>Что делать, когда не можешь делать ничего</span>
+        <span>
+          Или почему нам так сложно сконцентрироваться, особенно когда очень надо
+        </span>
+      </p>
     </header>
+
+    <main class="main">
+      <section class="section section--with-sidebar">
+        <h2 class="section__title">Почему сосредоточиться так сложно</h2>
+        <div class="section__articles">
+          <article class="article">
+            <h3 class="title-decor">Многозадачность</h3>
+            <p>
+              Открываете конспект, отвечаете на сообщения и держите в голове ещё два
+              дедлайна. Кажется, что так получится справиться со всем быстрее.
+              Но рабочая память ограничена. Исследования
+              <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7075496/" target="_blank" rel="noopener noreferrer">показывают</a>,
+              что одновременная работа над несколькими задачами влечёт дополнительные
+              затраты. При каждом переключении приходится заново вспоминать условия
+              задачи и место, на котором вы остановились. В итоге времени уходит
+              больше, а ошибок становится труднее избежать.
+            </p>
+          </article>
+          <article class="article">
+            <h3 class="title-decor">Дофамин</h3>
+            <p>
+              Уведомление обещает что-то новое прямо сейчас, а результат сложной
+              работы придётся подождать. Поэтому так легко отложить задачу,
+              открыть ленту и обнаружить себя там через полчаса. В системе
+              вознаграждения мозга участвует дофамин. Он помогает замечать
+              сигналы, за которыми может последовать что-то приятное.
+              Когда рядом телефон, таких сигналов набирается много:
+              сообщение, новый комментарий, следующий ролик. Каждый из них
+              предлагает простое занятие, к которому легко вернуться снова.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--obstacles">
+        <h2 class="section__title">Что снижает концентрацию внимания?</h2>
+        <div class="section__articles section__articles--obstacles">
+          <article class="article">
+            <h3 class="title-decor">Многозадачность</h3>
+            <p>
+              Когда вокруг происходит много всего, хочется следить за каждой
+              новостью и заранее подумать обо всех проблемах. За работой
+              взгляд снова тянется к вкладке с новостями, даже если проверить
+              там прямо сейчас нечего. Следить за всем подряд утомительно.
+              Попробуйте оставить для новостей отдельное время, а в перерывах
+              дать себе несколько минут тишины.
+            </p>
+          </article>
+          <article class="article">
+            <h3 class="title-decor">Еда</h3>
+            <p>
+              Легко заметить, как сложно читать или решать задачу, когда давно
+              пора обедать. Перекус может быстро избавить от чувства голода,
+              но если до следующего приёма пищи ещё далеко, мысль о еде скоро
+              вернётся. Перед долгой работой стоит запланировать время для
+              полноценного обеда. Тогда голод будет реже прерывать чтение,
+              а на перерыв можно будет отвлечься в подходящий момент.
+            </p>
+          </article>
+          <article class="article">
+            <h3 class="title-decor">Гаджеты</h3>
+            <p>
+              На ноутбуке открыт редактор, в наушниках идёт разговор,
+              на телефоне всплывают сообщения. Каждое такое событие по отдельности
+              выглядит мелочью. Вместе они вынуждают постоянно решать, чему отдать
+              внимание. Даже короткий взгляд на экран оставляет после себя
+              вопрос: где я остановился? Перед сложной задачей попробуйте
+              отключить лишние уведомления и убрать телефон туда, где его
+              экран не будет виден.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--with-sidebar">
+        <h2 class="section__title">
+          Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)
+        </h2>
+        <div class="section__articles">
+          <h3 class="title-decor">5 простых (на самом деле не очень) советов</h3>
+          <article class="article">
+            <h4 class="article__subtitle title-decor">Представьте небо и облака</h4>
+            <p>
+              Если мысли о предстоящей работе мешают начать, сделайте паузу.
+              Представьте, что над вами плывут облака. Пусть каждое облако
+              будет одной мыслью, которую вы заметили: «я не успею», «надо
+              ответить», «слишком много всего». Мысленно посмотрите, как облако
+              проплывает дальше. Вам достаточно его заметить и снова
+              обратить внимание на дыхание или на звуки вокруг.
+              Когда закончите, выберите одно небольшое действие, которое
+              можно сделать сейчас. Например, открыть нужный файл
+              или записать первый вопрос.
+            </p>
+          </article>
+          <article class="article">
+            <h4 class="article__subtitle title-decor">Включите музыку</h4>
+            <p>
+              Если в комнате шумно, попробуйте тихую инструментальную музыку
+              с ровным ритмом. Песни, которым хочется подпевать, можно
+              оставить для перерыва. Для работы с текстом иногда удобнее
+              однообразный фон, например шум дождя. Начните с низкой
+              громкости и проверьте, комфортно ли вам работать.
+            </p>
+          </article>
+          <article class="article">
+            <h4 class="article__subtitle title-decor">Прогуляйтесь</h4>
+            <p>
+              Когда начинаете перечитывать одну и ту же строку, встаньте из-за
+              стола и ненадолго выйдите на улицу. Если рядом есть парк, пройдитесь
+              по нему в удобном темпе. В одном
+              <a href="https://doi.org/10.1016/j.jenvp.2015.04.003" target="_blank" rel="noopener noreferrer">эксперименте</a>
+              даже короткий взгляд на озеленённую крышу помог участникам
+              лучше справляться с заданием на внимание. Оставьте наушники
+              в кармане и посмотрите по сторонам. После прогулки вернитесь
+              к тому месту, на котором остановились.
+            </p>
+          </article>
+          <article class="article">
+            <h4 class="article__subtitle title-decor">Хорошо ешьте</h4>
+            <p>
+              Заранее выделите время для еды, особенно если день расписан
+              по минутам. Если до обеда далеко, держите под рукой перекус,
+              который вам удобно взять с собой. Можно выбрать фрукт, йогурт
+              или бутерброд из цельнозернового хлеба. За обедом дайте себе
+              отвлечься от экрана и спокойно поесть.
+            </p>
+          </article>
+          <article class="article">
+            <h4 class="article__subtitle title-decor">Читайте</h4>
+            <p>
+              Возьмите книгу, которую вам действительно интересно читать,
+              и найдите время хотя бы для нескольких страниц подряд. Оставьте
+              телефон в стороне и последите за тем, как развивается сюжет
+              или мысль автора. Если внимание уплыло, вернитесь к последнему
+              абзацу, который помните, и продолжайте с него.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section gallery">
+        <h2 class="title-decor">А можно в картинках?</h2>
+        <div class="gallery__images">
+          <img class="gallery__image gallery__image--sunset" src="./images/sunset.png" width="1500" height="600" alt="Солнце садится за горы над волнами" loading="lazy" />
+          <img class="gallery__image gallery__image--ice-cream" src="./images/ice-cream.png" width="600" height="600" alt="Яркие шарики мороженого" loading="lazy" />
+          <img class="gallery__image gallery__image--tape" src="./images/tape.png" width="900" height="600" alt="Аудиокассета на цветном фоне" loading="lazy" />
+          <img class="gallery__image gallery__image--books" src="./images/books.png" width="600" height="600" alt="Стопка книг и чашка" loading="lazy" />
+          <img class="gallery__image gallery__image--street" src="./images/street.png" width="900" height="600" alt="Пустая улица между домами с проводами над ней" loading="lazy" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer decorated-zone">
+      <h2 class="display-title footer__title">focus</h2>
+    </footer>
   </body>
 </html>
