@@ -265,6 +265,16 @@
   }
 }
 
+@media (768px <= width < 1024px) {
+  .section--with-sidebar {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  }
+
+  .section--with-sidebar > .section__articles {
+    grid-column: auto;
+  }
+}
+
 @media (width >= 1024px) {
   .header__theme-menu {
     justify-self: center;
